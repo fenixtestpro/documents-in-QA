@@ -1,0 +1,308 @@
+﻿ID_01
+-------------
+summary: на странице регистрации появляется сообщение “ERROR” при нажатии кнопки “SUBMIT”,при  незаполненном поле surname .
+Project: test_projekt.
+ewirement: windows 10 (  64 бит home edition), google chrome  89.0.4389.90  (64 бит)
+pre condition: перейти по ссыкле http://itcareer.pythonanywhere.com/
+-----------------------------------------------------------------------------------------------------------------------------
+step to reproduce:
+   
+1) ввести spaun в поле “name”, spaun@.com в поле “email”,aaaAAA1 в поле“password”,
+поле “surname” оставить пустым.
+2) нажать кнопку “submit”
+actual result: появляется сообщение”ERROR”
+expected result: появляется сообщение “SUCCESS”
+bug severity: critical.
+Priority: Medium.
+type:functional
+
+
+Assignee: to Vadim.Kzendzov.
+Reporter: by spaun
+Status: open.
+attachment: скриншот 
+
+
+======================================================================
+ID_02
+-------------
+summary: форма регистрации принимает не заполнненое,обязательное поле “surname.
+
+
+Project: test_projekt.
+
+
+ewirement: windows 10 (  64 бит home edition), google chrome  89.0.4389.90  (64 бит)
+pre condition: перейти по ссыкле http://itcareer.pythonanywhere.com/
+-----------------------------------------------------------------------------------------------------------------------------
+step to reproduce:
+   
+1) ввести spaun в поле “name”, ivanov в поле”surname”,aaaAAA1 в поле “password”, поле “email” оставить пустым.
+2) нажать кнопку “submit”
+actual result: появляется сообщение“SUCCESS”
+expected result: появляется сообщение “ERROR”
+bug severity: critical.
+Priority: Medium.
+type:functional
+ Assignee: to Vadim.Kzendzov.
+Reporter: by spaun
+Status: open.
+attachment: скриншот 
+========================================================================
+
+
+
+
+
+
+ID_03
+------------
+summary:форма регистрации принимает не заполненное,обязательное поле “password”.
+Project: test_projekt.
+ewirement: windows 10 (  64 бит home edition), google chrome  89.0.4389.90  (64 бит)
+pre condition: перейти по ссыкле http://itcareer.pythonanywhere.com/
+-----------------------------------------------------------------------------------------------------------------------------
+step to reproduce:
+   
+1) ввести spaun в поле “name”, ivanov в поле “surname”spaun@.com в поле “email” поле“password” оставить не заполненным,
+поле “surname” оставить пустым.
+2) нажать кнопку “submit”
+actual result: появляется сообщение“SUCCESS”
+expected result: появляется сообщение “ERROR”
+bug severity: critical.
+Priority: Medium.
+type:functional
+Assignee: to Vadim.Ksendzov.
+Reporter: by spaun
+Status: open.
+attachment: скриншот 
+
+
+========================================================================
+ID_04
+------------
+summary: форма регистрации принимает поле “name”, заполненное на кириллице.
+Project: test project.
+ewirement: windows 10 (  64 бит home edition), google chrome  89.0.4389.90  (64 бит)
+pre condition: перейти по ссыкле http://itcareer.pythonanywhere.com/
+-----------------------------------------------------------------------------------------------------------------------------
+step to reproduce:
+   
+1) ввести Иван  в поле “name” ,Иванов в поле”surname”,aaaAAA1 в поле “password”, Иванов@.com в поле “email” .
+2) нажать кнопку “submit”
+actual result: появляется сообщение “SUCCESS
+expected result: появляется сообщение “ERROR”
+bug severity: critical.
+Priority: Medium.
+type:functional
+ Assignee: to Vv.
+Reporter: by spaunadim.Ksendzo
+Status: open.
+attachment: скриншот 
+========================================================================
+
+
+
+
+ID_05
+-------------
+summary: поле регистрации “email” принимает адрес эл.почты без знака”@”
+Project: test_projekt.
+ewirement: windows 10 (  64 бит home edition), google chrome  89.0.4389.90  (64 бит)
+pre condition: перейти по ссыкле http://itcareer.pythonanywhere.com/
+-----------------------------------------------------------------------------------------------------------------------------
+step to reproduce:
+   
+1) ввести spaun в поле “name”, spaun.com в поле “email”,aaaAAA1 в поле“password”,
+ Ivanov поле “surname”
+2) нажать кнопку “submit”
+actual result: появляется сообщение “SUCCESS”
+expected result: появляется сообщение “ERROR”
+bug severity: critical.
+Priority: Medium.
+type:functional
+Assignee: to Vadim.Kzendzov.
+Reporter: by spaun
+Status: open.
+attachment: скриншот 
+
+
+======================================================================
+ID_06
+-------------
+summary: на странице регистрации пользователя надпись”submit” на кнопке”submit” смещена вправо.
+
+
+Project: test_projekt.
+ewirement: windows 10 (  64 бит home edition), google chrome  89.0.4389.90  (64 бит)
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+step to reproduce:
+   
+1)  перейти по ссыкле http://itcareer.pythonanywhere.com/
+
+
+ actual result: надпись”submit” на кнопке”submit” смещена вправо.
+expected result: надпись”submit” на кнопке”submit”расположена по центру кнопки .
+
+
+bug severity: Trivial.
+Priority: Low.
+type:visual
+ Assignee: to Vadim.Kzendzov.
+Reporter: by spaun
+Status: open.
+attachment: скриншот
+========================================================================
+
+
+
+
+
+
+ID_07
+-------------
+summary:на странице регистрации надпись над полем “surname”написана с ошибкой.
+Project: test_projekt.
+ewirement: windows 10 (  64 бит home edition), google chrome  89.0.4389.90  (64 бит)
+-----------------------------------------------------------------------------------------------------------------------------
+step to reproduce:
+   
+1)  перейти по ссыкле http://itcareer.pythonanywhere.com/
+
+
+actual result: надпись над полем ввода фамилии “suname”
+expected result:надпись над полем ввода фамилии “surname”
+
+
+bug severity: Trivial.
+Priority: Low.
+type:visual
+Assignee: to Vadim.Kzendzov.
+Reporter: by spaun
+Status: open.
+attachment: скриншот 
+
+
+======================================================================
+ID_08 
+-------------
+summary: на странице регистрации пользователя отсутствует второе поля для подтверждения пароля
+Project: test_projekt.
+ewirement: windows 10 (  64 бит home edition), google chrome  89.0.4389.90  (64 бит)
+-----------------------------------------------------------------------------------------------------------------------------
+step to reproduce:
+   
+1)  перейти по ссыкле http://itcareer.pythonanywhere.com/
+
+
+ actual result: отсутствует второе поля для подтверждения пароля
+
+
+expected result:  присутствует второе поля для подтверждения пароля
+
+
+
+
+bug severity: critical.
+Priority: Medium.
+type:visual
+ Assignee: to Vadim.Kzendzov.
+Reporter: by spaun
+Status: open.
+attachment: скриншот 
+========================================================================
+
+
+
+
+
+
+
+
+ID_09 
+-------------
+summary: поле “name”на странице регистрации пользователя не имеет ограничения по количеству символов.
+Project: test_projekt.
+ewirement: windows 10 (  64 бит home edition), google chrome  89.0.4389.90  (64 бит)
+-----------------------------------------------------------------------------------------------------------------------------
+step to reproduce:
+   1)  перейти по ссыкле http://itcareer.pythonanywhere.com/
+2) ввести в поле “name” 257 букв на латинице.
+
+
+ actual result: поле “name”принимает любое количество введенных символов.
+
+
+expected result:  поле “name” имеет ограничение в 256 введенных символов.
+
+
+
+
+bug severity: major.
+Priority: Medium.
+type:visual
+ Assignee: to Vadim.Kzendzov.
+Reporter: by spaun
+Status: open.
+attachment: скриншот 
+========================================================================
+
+
+
+
+ID_10
+-------------
+summary:на странице регистрации нет информации какие поля являются обязательными к заполнению
+Project: test_projekt.
+ewirement: windows 10 (  64 бит home edition), google chrome  89.0.4389.90  (64 бит)
+-----------------------------------------------------------------------------------------------------------------------------
+step to reproduce:
+   1)  перейти по ссыкле http://itcareer.pythonanywhere.com/
+
+
+actual result: нет информации какие поля являются обязательными к заполнению,
+( обязательные поля не отмечены символом” * ”)
+
+
+expected result:обязательные поля не отмечены символом”*” под формой регистрации указана информация,что поля помеченные символом ” * ” являются обязательными к заполнению
+bug severity: major.
+Priority: hi.
+type:visual
+Assignee: to Vadim.Kzendzov.
+Reporter: by spaun
+Status: open.
+
+
+attachment: скриншот 
+
+
+======================================================================
+ID_11
+-------------
+summary: на странице регистрации пользователя отсутствует второе поля для подтверждения пароля
+Project: test_projekt.
+ewirement: windows 10 (  64 бит home edition), google chrome  89.0.4389.90  (64 бит)
+-----------------------------------------------------------------------------------------------------------------------------
+step to reproduce:
+   
+1)  перейти по ссыкле http://itcareer.pythonanywhere.com/
+
+
+ actual result: отсутствует второе поля для подтверждения пароля
+
+
+expected result:  присутствует второе поля для подтверждения пароля
+
+
+
+
+bug severity: critical.
+Priority: Medium.
+type:visual
+ Assignee: to Vadim.Kzendzov.
+Reporter: by spaun
+Status: open.
+attachment: скриншот 
+========================================================================
